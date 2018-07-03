@@ -82,6 +82,22 @@ The ContextSenses files consist of various paragraphs that are based on the use 
  
 Then there are files named Senses which consist of meanings for the ambiguous word to make the user understand the meaning portrayed by the sense that is being pointed to after the comparison.
 
+## Applications
+
+All the applications mentioned are applicable to any language, here Hindi is what I've worked on.
+
+ - Bioinformatics: WSD solve the ambiguity problem in bioinformatics words as “genes” has dissimilar senses.
+ 
+ - Classification of documents: It is required to improvise IR. WSD gives the way for clustering the document, which is having similar meanings.
+ 
+ - Computational Advertising: It is a sub-discipline to search the best advertisement in a particular context.
+ 
+ - Information Extraction: Information is extracted using knowledge based or lexical databases like WordNet, thesaurus, dictionary to find the correct sense of the particular context.
+ 
+ - Information Retrieval: It is needed WSD id to improve the perfection of existing IR. To get better result indexing, query expansion is required.
+ 
+ - Machine Translation: WSD is required in machine translation to get the correct sense of the words in a particular sentence in a defined language that has to be translated.
+
 ## Bibliography
 
 •	Natural Language Processing with Python– Analyzing Text with the Natural Language Toolkit by Steven Bird, Ewan Klein, and Edward Loper.
