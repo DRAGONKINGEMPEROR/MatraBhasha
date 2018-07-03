@@ -1,7 +1,6 @@
 import nltk
 import re
 from nltk.featstruct import FeatStruct
-import random
 import decimal
 from nltk.corpus import indian
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -47,8 +46,7 @@ def junkremove(list):
             list1.append(list[i])
     return list1
 
-def value(et):
-    return float(decimal.Decimal(random.uniform(67.8653,81.8865)))
+
 def work():
     setdata()
     for w in target_list:
